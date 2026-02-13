@@ -7,7 +7,7 @@ provider "aws" {
 resource "aws_s3_bucket" "project18_bucket" {
   bucket = "debojyotiproject18"
   tags = {
-    Name = "Project18Bucket"
+    Name = "Project18Bucketupdated"
     Environment = "dev"
 
   }
